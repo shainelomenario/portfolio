@@ -27,16 +27,6 @@ body {
     background-color: white;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    /* background-color: white;
-    padding: 15px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    display: flex;
-    justify-content: space-between;
-    align-items: center; */
 }
 
 .navbar {
@@ -85,50 +75,69 @@ body {
 }
 
 .about {
-    margin-top: 60px;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: auto;
+    gap: 40px;
+    flex-wrap: wrap;
 }
 
-/* .about-left {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-} */
 
-/* .about-left, .about-right {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-} */
-
-.about-left {
-    width: 40%; /* Fixed width for about-left */
+.about-left { 
     display: flex;
     justify-content: center;
     align-items: center;
     flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .about-right {
-    width: 60%; /* Remaining space for about-right */
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    flex: 1;
+    justify-content: center;
+    flex: 2;
+    min-width: 450px;
+    max-width: 700px;
+    text-align: left;
+    gap: 15px;
 }
+
 
 .about-left img{
-    width: 40%;
+    width: 100%;
+    max-width: 250px;
     height: auto;
     border-radius: 50%; /* Makes the image round */
-    border: 5px solid #2563EB;
+    border: 4px solid #2563EB;
+    object-fit: cover; 
 }
 
+.about-right h3 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.about-right p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+
+
+.about-right p, .about-right h2 {
+    text-align: left;
+}
+
+#school {
+    color: #64748B
+}
 
 
 
@@ -152,6 +161,8 @@ body {
 .section {
     padding: 60px 0;
     text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 .skills-container, .contact-container {
     background-color: #F1F5F9;

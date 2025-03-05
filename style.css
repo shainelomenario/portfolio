@@ -9,7 +9,7 @@ h2 {
 
 
 body {
-    font-family: 'Montserat', sans-serif;
+    font-family: 'Monospace', 'Montserat', sans-serif;
     background-color: #FFFFFF;
     color: #020817;
     margin: 0;
@@ -115,8 +115,9 @@ body {
     max-width: 250px;
     height: auto;
     border-radius: 50%; /* Makes the image round */
-    border: 4px solid #2563EB;
+    border: 3px solid #2563EB;
     object-fit: cover; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .about-right h3 {
@@ -146,6 +147,8 @@ body {
     flex-direction: column;
     align-items: center;
     margin-bottom: 75px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
 }
 
 .skills-grid {
@@ -189,6 +192,8 @@ body {
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
 }
 .btn-primary {
     background-color: #2563EB;
@@ -215,4 +220,5 @@ body {
     text-align: center;
     font-size: 0.9rem;
     color: #64748B;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }

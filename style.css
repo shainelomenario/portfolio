@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+h2 {
+    text-align: center;
+    margin: 0;
+}
 
 
 body {
@@ -36,7 +40,7 @@ body {
 }
 
 .navbar {
-    width: 1100px;
+    width: 1700px;
     display: flex;
     justify-content: space-between;
 }
@@ -56,9 +60,7 @@ body {
     margin: 0 10px;
 }
 
-.about-container {
 
-}
 .hero {
     display: flex;
     flex-direction: column;
@@ -81,6 +83,56 @@ body {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+.about {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+}
+
+/* .about-left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+} */
+
+/* .about-left, .about-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} */
+
+.about-left {
+    width: 40%; /* Fixed width for about-left */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.about-right {
+    width: 60%; /* Remaining space for about-right */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 1;
+}
+
+.about-left img{
+    width: 40%;
+    height: auto;
+    border-radius: 50%; /* Makes the image round */
+    border: 5px solid #2563EB;
+}
+
+
+
+
+
 .btn {
     display: inline-block;
     padding: 10px 20px;

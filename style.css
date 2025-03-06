@@ -64,6 +64,7 @@ body {
 
 .navbar a:hover {
     color: #2563EB;
+    text-decoration: underline;
 }
 
 
@@ -250,9 +251,8 @@ body {
     text-align: left;
 }
 
-.experience-role p, #school {
-    color: #64748B
-
+.experience-role  {
+    color: #64748B;
 }
 
 .project-container {
@@ -387,9 +387,17 @@ textarea.form-control {
     background-color: #2563EB;
     color: white;
 }
+
+.btn-primary:hover {
+    background-color: #3672f3;
+}
 .btn-outline {
     border: 1px solid #64748B;
     color: #020817;
+}
+
+.btn-outline:hover {
+    background-color: #F1F5F9;
 }
 .section {
     padding: 60px 0;
@@ -409,6 +417,10 @@ textarea.form-control {
     font-size: 0.9rem;
     color: #64748B;
     box-shadow: 0 5px 12px rgba(0, 0, 0, 0.1);
+}
+
+footer a:hover {
+    color: #4573d4;
 }
 
 /* Reveal Animation from Old Portfolio */

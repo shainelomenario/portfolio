@@ -33,6 +33,7 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: fixed;
     width: 100%;
+    z-index: 1000;
 }
 
 .navbar {
@@ -193,14 +194,14 @@ body {
 }
 
 .skill-item:hover {
-    transform: translateY(-8px);
+    transform: translateY(8px);
 }
 
 .skill-item img {
     width: 50px;
     height: 50px;
     object-fit: contain;
-    transform: translateY(-8px);
+    transform: translateY(8px);
 
 }
 

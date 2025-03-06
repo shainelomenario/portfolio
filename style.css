@@ -83,6 +83,10 @@ body {
     color: #2563EB;
 }
 
+.hero p {
+    font-size: 1.5rem;
+}
+
 .header-buttons {
     display: flex;
     flex-direction: row;
@@ -317,6 +321,53 @@ body {
     margin: 10px 20px 0 20px;
 }
 
+.contact-container {
+    max-width: auto;
+    margin: 5px 0;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center
+}
+
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.form-row {
+    display: flex;
+    gap: 15px;
+}
+
+.form-row .form-group {
+    flex: 1;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: left;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+textarea.form-control {
+    width: 100%;
+    max-width: 100%;
+    resize: vertical;
+}
 
 
 
@@ -357,5 +408,5 @@ body {
     text-align: center;
     font-size: 0.9rem;
     color: #64748B;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.1);
 }

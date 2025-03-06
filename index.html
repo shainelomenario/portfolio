@@ -194,10 +194,38 @@
         
      </section>
 
-    <section id="contact" class="section contact-container">
-        <h2>Contact</h2>
-        <p>Email: shainelomenario@gmail.com</p>
-        <p>Location: New York, NY</p>
+    <section id="contact" class="contact-container section">
+        <h2>Contact Me </h2>
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+            <input type="hidden" name="access_key" value="eba2f986-2932-41e3-be1f-eb92f7b2d686">
+        
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" placeholder="Your name" name="name" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" placeholder="Your email" name="email" required>
+                </div>
+            </div>
+        
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" class="form-control" placeholder="Subject" name="subject" required>
+            </div>
+        
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea name="comment" rows="7" class="form-control" placeholder="Your message"></textarea>
+            </div>
+        
+            <div class="form-group">
+                <input type="submit" value="Send Message" class="btn-primary">
+            </div>    
+        </form>
+                    
     </section>
 
     <footer class="footer">
